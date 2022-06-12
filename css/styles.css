@@ -1,0 +1,110 @@
+/*Globales*/
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.contenedor {
+    /*Toma todo el espacio sin pasar de 1200*/
+    max-width: 120rem;
+    /* ==1200 px */
+    /*centrar*/
+    margin-left: 56rem;
+    margin-right: 56rem;
+}
+
+.site-header.inicio {
+    background-image: url(../img/Untitled.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 70rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.calculadora {
+    border: 0.5rem solid #ccc;
+    border-radius: 0.5rem;
+    width: 42rem;
+    height: 38rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.resultado-pantalla {
+    width: 100%;
+    height: 8rem;
+    margin: 0rem;
+    background-color: #252525;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1.8rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.ventana {
+    width: 30%;
+    height: 8rem;
+    margin: 0rem;
+    background-image: url(../img/fondoVentana.jpg);
+    color: #fff;
+    padding: 3.3rem;
+    font-size: 1.8rem;
+    text-align: center;
+    min-height: 25rem;
+    border-radius: 2.2rem;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    display: none;
+}
+
+#texto {
+    /* margin: auto;
+    text-align: center;*/
+    right: 900rem;
+    top: 40%;
+    
+}
+
+#iconoCerrar {
+    width: 10%;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.1rem;
+}
+
+.calculator-button {
+    width: 7rem;
+    margin: 1rem !important;
+}
+
+.calculator-button:hover {
+    background-color: #e3e3e3;
+}
+
+.calculator-operation-button {
+    width: 5rem;
+    margin: 1.5rem;
+}
+
+.equals-button {
+    width: 98%;
+    margin: 0.5rem;
+}
